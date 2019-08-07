@@ -1,3 +1,6 @@
-build
+build/
 .packages
 pubspec.lock
+.pub/
+ios/.generated/
+.flutter-plugins
