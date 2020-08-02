@@ -11,64 +11,21 @@ class App extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MainScreen(),
-      // home: MainScreen(title: 'Flutter Demo Home Page'),
+      // home: MainScreen(),
+      home: MainScreen(title: 'Flutter Demo Home Page'),
     );
   }
 }
 
 class MainScreen extends StatelessWidget {
-  // MainScreen({this.title});
+  MainScreen({this.title});
 
-  // final String title;
+  final String title;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: <Widget>[Display(clock: AnalogClock())],
-      ),
-    );
-  }
-}
-
-class AnalogClock extends Clock {
-  // @override
-  // Widget build(BuildContext context) {
-  //   // TODO: implement build
-  //   return null;
-  // }
-}
-
-class AlarmList extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    // TODO: implement build
-    return null;
-  }
-}
-
-class Display extends StatelessWidget {
-  Display({this.clock});
-  final Clock clock;
-
-  @override
-  Widget build(BuildContext context) {
-    return AspectRatio(
-      aspectRatio: 0.5,
-      child: Column(
-        
-      ),
-    );
-  }
-}
-
-class Clock extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return new AspectRatio(
-      aspectRatio: 1.0,
-      child: new Stack(),
+      body: Text('data'),
     );
   }
 }

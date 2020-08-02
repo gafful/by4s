@@ -1,4 +1,4 @@
-#Wed Aug 07 16:20:57 GMT 2019
-base.0=/home/lawrence/Documents/mukaase/opensource/mobile/flutter/by4s/build/app/intermediates/transforms/dexMerger/debug/0
+#Sun Aug 02 23:45:19 GMT 2020
+base.0=/Users/muxa/Documents/mukaase/awam/by4s/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
